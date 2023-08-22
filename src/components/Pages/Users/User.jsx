@@ -40,7 +40,7 @@ function Users() {
         </thead>
         <tbody>
           {users.map((user) => (
-            <tr key={user.id} onClick={handleUserClick}>
+            <tr key={user.id} onClick={() => handleUserClick(user.id)}>
               <td>{user.id}</td>
               <td>{user.name}</td>
               <td>{user.username}</td>
