@@ -1,0 +1,22 @@
+.photoCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.myCardTitle {
+    white-space: nowrap; /* Ngăn tiêu đề trên nhiều dòng */
+    overflow: hidden; /* Ẩn phần dư thừa */
+    text-overflow: ellipsis; /* Hiển thị dấu "..." nếu tiêu đề quá dài */
+  }
+
+.myButtonContainer {
+display: flex;
+justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.btnLoadMore{
+    margin-bottom: 10px;
+    text-align: center;
+}
